@@ -177,7 +177,7 @@ a {
     height: 14rem;
     width: 25rem;
     left: 2rem;
-    top: 7rem;
+    top: 10rem;
   }
   .hero-text p {
     width: 20rem;
@@ -189,10 +189,7 @@ a {
 }
 
 @media (max-width: 900px) {
-  .hero-text {
-    width: 24rem;
-    padding-left: 2rem;
-  }
+  
   .navbar {
     font-size: 1.3rem;
   }
@@ -216,18 +213,24 @@ a {
   .active {
     display: block;
   }
+  .hero-img{
+    height:100vh;
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 700px) {
   .hero-text {
-    width: 20rem;
-    height: 12rem;
-    top: 4rem;
+    width: 22rem;
+    height: 14rem;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
   }
   .hero-text p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .hero-text h1 {
     font-size: 1.5rem;
   }
+  
 }
